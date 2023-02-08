@@ -187,6 +187,7 @@ Sensors:
 "ctIFCCurrentFanActualStatus": a % in 0.5% steps; the actual fan demand (responds to fan circulate switch being on, fan turned on via thermostat, and furnace running)
 "ctIFCCurrentHeatActualStatus": a % in 0.5% steps; the actual furnace status
 "ctIFCCurrentCoolActualStatus": a % in 0.5% steps; the actual air conditioner status
+"ctIFCOperatingHeatCoolMode" : (dual fuel heatpump) text description of furnace modes; OFF, ON, FAN, AC, HEAT, LO GAS, HI GAS
 “ctAHCurrentIndoorAirflow”: maybe CFM?, current airflow
 "aq[In/Out]doorAvailable": true if sensor is available (outdoor is internet info)
 "aq[In/Out]doorLevel": assuming this is an enum, 1=acceptable, others TBD
